@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add –check-files
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/–check-files: Request path contains unescaped characters
+      at new NodeError (node:internal/errors:387:5)
+      at new ClientRequest (node:_http_client:173:13)
+      at Object.request (node:https:357:10)
+      at Request.module.exports.Request.start (/usr/share/yarn/lib/cli.js:141452:32)
+      at Request.module.exports.Request.end (/usr/share/yarn/lib/cli.js:142211:10)
+      at end (/usr/share/yarn/lib/cli.js:141265:14)
+      at Immediate.<anonymous> (/usr/share/yarn/lib/cli.js:141279:7)
+      at processImmediate (node:internal/timers:466:21)
+
+npm manifest: 
+  {
+    "name": "cup-throw",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
