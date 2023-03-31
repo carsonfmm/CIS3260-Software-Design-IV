@@ -1,7 +1,6 @@
 # README
-Name: Carson Mifsud
-Email: cmifsud@uoguelph.ca
-Student ID: 1089936
+
+
 Assignment: 2
 Due Date: Nov 4, 2022 11:59 PM
 
