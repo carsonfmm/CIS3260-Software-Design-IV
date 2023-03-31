@@ -1,5 +1,6 @@
 # README
 
+Suggested students not copy parts for coursework
 
 Assignment: 2
 Due Date: Nov 4, 2022 11:59 PM
