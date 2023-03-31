@@ -1,0 +1,2 @@
+module GamecontentsHelper
+end
